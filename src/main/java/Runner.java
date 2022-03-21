@@ -11,7 +11,7 @@ public class Runner {
 
         System.out.println("Hello World");
         System.out.println(System.getenv("GOOGLE_APPLICATION_CREDENTIALS"));
-        final String projectId = "fleet-geode-336620";
+        final String projectId = "fleet-geode-29070";
         final String topicId = "hello_topic";
 
         String resourceName = "projects/"+projectId+"/topics/"+topicId;
